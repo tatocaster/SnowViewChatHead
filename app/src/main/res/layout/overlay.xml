@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/ic_launcher"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"/>
+
+    <me.tatocaster.snowview.SnowView.SnowView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@id/image"
+        android:layout_alignEnd="@id/image"
+        android:layout_alignLeft="@id/image"
+        android:layout_alignRight="@id/image"
+        android:layout_alignStart="@id/image"
+        android:layout_alignTop="@id/image"
+        />
+</RelativeLayout>
